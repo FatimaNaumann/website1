@@ -1,0 +1,96 @@
+body {
+    background-color: rgb(229, 220, 233);
+    color: rgba(8, 3, 9, 0.639);
+    font-family: Arial;
+    margin: 0;
+    padding: 20px;
+}
+    .header {
+        text-align: center;
+        background-color: rgba(215, 193, 225, 1);
+        color: rgb(250, 250, 250);
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px rgb(250, 250, 250);
+    }    
+
+    .text-section{
+        background-color: rgb(250, 250, 250);
+        margin: 20px;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 2px 2px 6px rgb(250, 250, 250);
+
+    }
+
+
+    .header{
+        background-color: rgb(250, 250, 250);
+        color: rgb(250, 250, 250);
+        border: none;
+        padding: 35px 70px;
+        font-size: 24px;
+        border-radius: 15px;
+        cursor: pointer;
+        transition: 0.3s;
+        box-shadow: 4px 4px 10px rgb(199, 194, 204);
+
+    }
+    
+
+    .big-button:active {
+        background: linear-gradient(90deg, rgb(215, 202, 215),rgb(209, 161, 209), rgb(212, 147, 212));
+        color: white;
+        a:hover {
+        color: red;
+}
+    }
+
+    img:image {
+        width: 200px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 3px 3px 10px rgb(239, 237, 241);
+        transition: all 0.3s;
+    }
+
+    img:active {
+        border-radius: 20px;
+    }
+
+    .moving-text {
+        text-align: center;
+        color: rgb(236, 231, 241);
+        animation: move 7s infinite alternate ;
+    }
+    img:Favicon {
+        width: 100px;
+        height: 200px;
+        border-radius: 50%;
+        box-shadow: 3px 3px 10px rgb(239, 237, 241);
+        transition: all 0.3s;
+    }
+    
+
+    
+    @keyframes move {
+        0% {transform: translateX(0);}
+        100% {transform: translateX(40px);}
+    }
+
+    fieldset {
+        border: 2px solid rgb(235, 226, 235);
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    legend{
+        font-weight: bold;
+        color: rgb(143, 105, 178);
+    }
+    fieldset{
+    width: fit-content; 
+    border: 2px solid ;
+    padding: 10px 15px; 
+    margin-bottom: 20px;
+    }
