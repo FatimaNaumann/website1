@@ -56,14 +56,6 @@ body {
     }
 
     
-    img:Favicon {
-        width: 100px;
-        height: 200px;
-    
-    }
-    
-
-    
     @keyframes move {
         0% {transform: translateX(0);}
         100% {transform: translateX(40px);}
