@@ -6,7 +6,12 @@ body {
     padding: 20px;
 }
 
-
+.intro-text {
+    font-size: 0.9rem;
+    font-style: italic;
+    color: #8C7851;
+    text-align: center;
+}
    
 
 .header {
