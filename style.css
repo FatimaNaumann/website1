@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(229, 220, 233);
-    color: rgba(8, 3, 9, 0.639);
+    background-color: White(229, 220, 233);
+    color: wheat(8, 3, 9, 0.639);
     font-family: Arial;
     margin: 0;
     padding: 20px;
@@ -12,16 +12,12 @@ body {
         padding: 20px;
         border-radius: 10px;
         box-shadow: 2px 2px 6px rgb(250, 250, 250);
-    }    
-
    
-
-    }
 
 
     .header{
-        background-color: rgb(250, 250, 250);
-        color: rgb(250, 250, 250);
+        background-color: White(250, 250, 250);
+        color: black(250, 250, 250);
         border: none;
         padding: 35px 70px;
         font-size: 24px;
@@ -48,13 +44,7 @@ body {
         border-radius: 50%;
         box-shadow: 3px 3px 10px rgb(239, 237, 241);
         transition: all 0.3s;
-    }
-
     
-    @keyframes move {
-        0% {transform: translateX(0);}
-        100% {transform: translateX(40px);}
-    }
 
     fieldset {
         border: 2px solid rgb(235, 226, 235);
@@ -73,7 +63,4 @@ body {
     margin-bottom: 20px;
     }
 
-    h4{
-        font-family:'PlayWrite Cuba Guides',sans-serif;
-        
-    }
+   
