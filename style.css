@@ -4,6 +4,15 @@ body {
     font-family: Arial;
     margin: 0;
     padding: 20px;
+    
+}
+
+.text-section {
+    font-size: 0.9rem;
+    font-style: italic;
+    color:rgb(75, 54, 47)
+    text-align: center;
+    
 }
 
 .intro-text {
