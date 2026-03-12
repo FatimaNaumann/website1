@@ -1,6 +1,6 @@
 body {
-    background-color: rgb(229, 220, 233); /* Fixed: Changed 'White' to 'rgb' */
-    color: rgba(8, 3, 9, 0.639); /* Fixed: Changed 'wheat' to 'rgba' to support 4 values */
+    background-color: rgb(229, 220, 233); 
+    color: rgba(8, 3, 9, 0.639); 
     font-family: Arial;
     margin: 0;
     padding: 20px;
@@ -8,16 +8,16 @@ body {
 
 .header {
     text-align: center;
-    background-color: rgba(215, 193, 225, 1); /* Fixed: Changed 'white' to 'rgba' */
+    background-color: rgba(215, 193, 225, 1); 
     color: rgb(250, 250, 250);
     padding: 20px;
     border-radius: 10px;
     box-shadow: 2px 2px 6px rgb(250, 250, 250);
-} /* Fixed: Added missing closing brace */
+} 
 
 .header {
-    background-color: rgb(250, 250, 250); /* Fixed: Changed 'White' to 'rgb' */
-    color: rgb(0, 0, 0); /* Fixed: Changed 'black' to 'rgb' */
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);/
     border: none;
     padding: 35px 70px;
     font-size: 24px;
@@ -36,13 +36,13 @@ a:hover {
     color: red;
 }
 
-img { /* Fixed: 'img:image' is not a valid selector; changed to 'img' */
+img { 
     width: 200px;
     height: 200px;
     border-radius: 50%;
     box-shadow: 3px 3px 10px rgb(239, 237, 241);
     transition: all 0.3s;
-} /* Fixed: Added missing closing brace */
+} 
 
 fieldset {
     border: 2px solid rgb(235, 226, 235);
