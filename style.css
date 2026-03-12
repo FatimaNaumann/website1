@@ -1,66 +1,63 @@
 body {
-    background-color: White(229, 220, 233);
-    color: wheat(8, 3, 9, 0.639);
+    background-color: rgb(229, 220, 233); /* Fixed: Changed 'White' to 'rgb' */
+    color: rgba(8, 3, 9, 0.639); /* Fixed: Changed 'wheat' to 'rgba' to support 4 values */
     font-family: Arial;
     margin: 0;
     padding: 20px;
 }
-    .header {
-        text-align: center;
-        background-color: white (215, 193, 225, 1);
-        color: rgb(250, 250, 250);
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 2px 2px 6px rgb(250, 250, 250);
-   
 
+.header {
+    text-align: center;
+    background-color: rgba(215, 193, 225, 1); /* Fixed: Changed 'white' to 'rgba' */
+    color: rgb(250, 250, 250);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 6px rgb(250, 250, 250);
+} /* Fixed: Added missing closing brace */
 
-    .header{
-        background-color: White(250, 250, 250);
-        color: black(250, 250, 250);
-        border: none;
-        padding: 35px 70px;
-        font-size: 24px;
-        border-radius: 15px;
-        cursor: pointer;
-        transition: 0.3s;
-        box-shadow: 4px 4px 10px rgb(199, 194, 204);
-
-    }
-    
-
-    .big-button:active {
-        background: linear-gradient(90deg, rgb(215, 202, 215),rgb(209, 161, 209), rgb(212, 147, 212));
-        color: white;
-    }
-        a:hover {
-        color: red;
+.header {
+    background-color: rgb(250, 250, 250); /* Fixed: Changed 'White' to 'rgb' */
+    color: rgb(0, 0, 0); /* Fixed: Changed 'black' to 'rgb' */
+    border: none;
+    padding: 35px 70px;
+    font-size: 24px;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+    box-shadow: 4px 4px 10px rgb(199, 194, 204);
 }
-    
 
-    img:image {
-        width: 200px;
-        height: 200px;
-        border-radius: 50%;
-        box-shadow: 3px 3px 10px rgb(239, 237, 241);
-        transition: all 0.3s;
-    
+.big-button:active {
+    background: linear-gradient(90deg, rgb(215, 202, 215), rgb(209, 161, 209), rgb(212, 147, 212));
+    color: white;
+}
 
-    fieldset {
-        border: 2px solid rgb(235, 226, 235);
-        border-radius: 10px;
-        padding: 10px;
-    }
+a:hover {
+    color: red;
+}
 
-    legend{
-        font-weight: bold;
-        color: rgb(143, 105, 178);
-    }
-    fieldset{
+img { /* Fixed: 'img:image' is not a valid selector; changed to 'img' */
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    box-shadow: 3px 3px 10px rgb(239, 237, 241);
+    transition: all 0.3s;
+} /* Fixed: Added missing closing brace */
+
+fieldset {
+    border: 2px solid rgb(235, 226, 235);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+legend {
+    font-weight: bold;
+    color: rgb(143, 105, 178);
+}
+
+fieldset {
     width: fit-content; 
-    border: 2px solid ;
+    border: 2px solid;
     padding: 10px 15px; 
     margin-bottom: 20px;
-    }
-
-   
+}
